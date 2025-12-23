@@ -58,7 +58,7 @@ pip install -r requirments.txt
 python3 app.py
 ```
 
-### Frontend
+### Frontend (Another terminal)
 1. Go to frontend folder
 ```bash
 cd frontend
