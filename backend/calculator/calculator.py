@@ -21,8 +21,9 @@ def calculate_absence_rate(
     absence_rate = absences / possible_days
 
     return {
-        "actual_days": actual_days,
+        "total_days": total_days,
         "possible_student_days": possible_days,
-        # "total_absence": absences, under maintainants
+        "absences": absences,
+        "actual_days": actual_days,
         "absence_rate_percent": round(absence_rate * 100, 2)
     }
